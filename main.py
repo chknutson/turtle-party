@@ -19,13 +19,11 @@ def move(len):
 def right(len):
   left(-1 * len)
 
-# movement function
 def left(len):
   turtle.penup()
   turtle.left(90)
   turtle.pendown()
 
-# drawn function on screen
 def polygon(sides, size):
   for i in range(sides):
     turtle.forward(size)
